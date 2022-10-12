@@ -62,7 +62,7 @@ public class LinkedList<T> implements List<T>{
 		head.next = newNode;
 		newNode.prev = head;
 		size++;
-		
+		 
 	}
 	
 	/**

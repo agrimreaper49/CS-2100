@@ -5,7 +5,7 @@ public class ListIterator<T> {
 	/* Current node (of type ListNode) */
 	protected ListNode<T> curNode; 
 	
-/* ListIterator constructor. Accepts the current node. */
+	/* ListIterator constructor. Accepts the current node. */
 	public ListIterator(ListNode<T> currentNode) { 
 		this.curNode = currentNode;
 	}
